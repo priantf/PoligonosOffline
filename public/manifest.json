@@ -1,0 +1,11 @@
+{
+  "name": "Projeto",
+  "short_name": "Projeto",
+  "theme_color": "#424242",
+  "background_color": "#536dfe",
+  "display": "standalone",
+  "orientation": "portrait",
+  "Scope": "/",
+  "start_url": "/",
+  "splash_pages": null
+}

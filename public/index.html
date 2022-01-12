@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- TITLE -->
+    <title>Projeto Geometria Offline</title>
+    <!-- ENCODING -->
+    <meta charset="utf-8" />
+    <!-- DOCUMENT AREA -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- THEME COLOR -->
+    <meta name="theme-color" content="#424242" />
+    <!-- OL -->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/ol.css" />
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#009879">
+    <!-- MANIFEST -->
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body style="background-color: #eee;">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+        <!-- TOOLBAR -->
+    
+        
+        <!-- MAIN CONTENT -->
+        <main class="mdl-layout__content">
+            <!-- MAP SECTION -->
+            <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+                <div class="page-content">
+                    <div id="map" style="position: fixed; width: 100%; height: calc(100% - 104px); background: #eee">
+                    </div>
+                    <div id="popup" class="ol-popup">
+                        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                        <div id="popup-content"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!-- OPENLAYERS SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.5.0/proj4.js"></script>
+    <!-- <script src="scripts/lz-string.min.js"></script> -->
+
+    <!-- MAP SCRIPT -->
+    <script src="scripts/map.js"></script>
+</body>
+
+</html>
